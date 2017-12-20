@@ -1,5 +1,5 @@
 def new_hash
-	wali = Hash.new { |hash, key|  }
+	rock = Hash.new { |actor, name| actor[name] = "Dwayne The Rock Johnson" }
 end
 
 def actor
